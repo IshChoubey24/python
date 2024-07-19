@@ -15,4 +15,5 @@ another_list.pop()
 print(another_list)
 
 num_type=[1,4,9,7,3]
-print(num_type.sort())
+w=num_type.reverse()
+print(w)
