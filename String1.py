@@ -18,3 +18,8 @@ print(b)
 
 e=y.split('s')
 print(e)
+
+#Adding/Conact String in print only without use of +
+print('This is a string {}'.format('INSERTED'))
+
+print('The {2} {0} {1}'.format('fox','brown','quick'))
