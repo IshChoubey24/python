@@ -17,3 +17,9 @@ print(another_list)
 num_type=[1,4,9,7,3]
 w=num_type.reverse()
 print(w)
+
+#sort
+list=[1,4,5,2,3]
+
+list.sort()
+print(list)
