@@ -36,5 +36,25 @@ print(check_even_list([1,2,3]))
 
 work_hours=[("Bill",110),("John",220),("Kenedy",50)]
 
+   
 
+
+
+def employee_check(work_hours):
+    
+    # Set some max value to intially beat, like zero hours
+    current_max = 0
+    # Set some empty value before the loop
+    employee_of_month = ''
+    
+    for employee,hours in work_hours:
+        if hours > current_max:
+            current_max = hours
+            employee_of_month = employee
+        else:
+            pass
+
+    return (employee_of_month,current_max)
+
+print(employee_check(work_hours))   
 
